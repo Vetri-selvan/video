@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   /* align-items: center; */
+} 
+
+ video{
+   height: inherit;
+width: 100%;
+object-fit: cover;
+
+} 
+h1{
+    position: absolute;  
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif-;
+    color: white;
+    font-size: 30px;
+}
